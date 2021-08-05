@@ -1,6 +1,11 @@
 import pyautogui
 import random
 import re
+import sys
+import subprocess
+
+# Make sure pyautogui is installed
+subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'pyautogui'])
 
 # Get screen size
 screen_size = re.split("=|,|\)", str(pyautogui.size()))
