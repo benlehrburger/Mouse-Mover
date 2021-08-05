@@ -10,6 +10,6 @@ Tired of having to move your mouse every 15 minutes just so it looks like you're
 
 (4) Insert: sudo python3 *pathname*
 
-(5) Install any packages terminal requests
+(5) Install any packages terminal requests (if you do, redo step 4)
 
 (6) Stop mouse movement with ctrl+C
